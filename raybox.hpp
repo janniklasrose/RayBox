@@ -1,7 +1,7 @@
 // raybox.hpp
 
 /*
-Amy Williams, Steve Barrus, R. Keith Morley, Peter Andshirley.
+Amy Williams, Steve Barrus, R. Keith Morley, Peter Shirley.
 An efficient and robust ray-box intersection algorithm.
 2005. Journal of Graphics Tools 10, 54.
 DOI:10.1145/1198555.1198748
@@ -96,4 +96,3 @@ bool Box::intersect (const Ray &r, float t0, float t1) const {
     // interval
     return ( (tmin < t1) && (tmax > t0) );
 }
-
